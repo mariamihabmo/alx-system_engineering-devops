@@ -1,3 +1,0 @@
-#!/bin/bash
-ls -l
-chmod +x list_contents.sh
