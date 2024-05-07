@@ -1,3 +1,6 @@
 #!/usr/bin/env ruby
-# A regular expression that is matches 10 digit phone number
-puts ARGV[0].scan(/^[0-9]{10}$/).join
+# This script accepts one argument and passes it to a regular expression,
+# matching method
+# The regular expression must match a 10 digit phone number
+
+puts ARGV[0].scan(/^\d{10}$/).join
